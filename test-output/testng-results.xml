@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="15" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-26T13:45:16 EST" name="Suite" finished-at="2023-02-26T13:45:47 EST" duration-ms="30297">
+    <groups>
+    </groups>
+    <test started-at="2023-02-26T13:45:16 EST" name="Test" finished-at="2023-02-26T13:45:47 EST" duration-ms="30297">
+      <class name="dsalgo_Testscenarios.GraphTc_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:35 EST" name="setup" finished-at="2023-02-26T13:45:35 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="a_opensign_inpage()[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:35 EST" name="a_opensign_inpage" finished-at="2023-02-26T13:45:36 EST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_opensign_inpage -->
+        <test-method signature="aa_loginDDT(java.lang.String,java.lang.String)[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:36 EST" name="aa_loginDDT" data-provider="Logindata" finished-at="2023-02-26T13:45:37 EST" duration-ms="1713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PapaJohns]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@1!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aa_loginDDT -->
+        <test-method signature="b_graphpage()[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:37 EST" name="b_graphpage" finished-at="2023-02-26T13:45:40 EST" duration-ms="2789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_graphpage -->
+        <test-method signature="c_graphlink(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:40 EST" name="c_graphlink" data-provider="Python" finished-at="2023-02-26T13:45:42 EST" duration-ms="2089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_graphlink -->
+        <test-method signature="c_graphlink(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:42 EST" name="c_graphlink" data-provider="Python" finished-at="2023-02-26T13:45:45 EST" duration-ms="2053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_graphlink -->
+        <test-method signature="d_run()[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:45 EST" name="d_run" finished-at="2023-02-26T13:45:45 EST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_run -->
+        <test-method signature="e_graphreprsntspage()[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:45 EST" name="e_graphreprsntspage" finished-at="2023-02-26T13:45:45 EST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e_graphreprsntspage -->
+        <test-method signature="f_graphrprnts(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:46 EST" name="f_graphrprnts" data-provider="Python" finished-at="2023-02-26T13:45:46 EST" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f_graphrprnts -->
+        <test-method signature="f_graphrprnts(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:46 EST" name="f_graphrprnts" data-provider="Python" finished-at="2023-02-26T13:45:46 EST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f_graphrprnts -->
+        <test-method signature="g_run()[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:46 EST" name="g_run" finished-at="2023-02-26T13:45:47 EST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g_run -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsalgo_Testscenarios.GraphTc_001@6f89292e]" started-at="2023-02-26T13:45:47 EST" name="tearDown" finished-at="2023-02-26T13:45:47 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dsalgo_Testscenarios.GraphTc_001 -->
+      <class name="dsalgo_Testscenarios.Tc_Login_datadriven">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.Tc_Login_datadriven@3f93e4a8]" started-at="2023-02-26T13:45:16 EST" name="setup" finished-at="2023-02-26T13:45:24 EST" duration-ms="7942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Skip_test()[pri:0, instance:dsalgo_Testscenarios.Tc_Login_datadriven@3f93e4a8]" started-at="2023-02-26T13:45:24 EST" name="Skip_test" finished-at="2023-02-26T13:45:24 EST" duration-ms="65" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this Test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this Test
+at dsalgo_Testscenarios.Tc_Login_datadriven.Skip_test(Tc_Login_datadriven.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skip_test -->
+        <test-method signature="setup()[pri:1, instance:dsalgo_Testscenarios.Tc_Login_datadriven@3f93e4a8]" started-at="2023-02-26T13:45:25 EST" name="setup" finished-at="2023-02-26T13:45:25 EST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="opensign_inpage()[pri:2, instance:dsalgo_Testscenarios.Tc_Login_datadriven@3f93e4a8]" started-at="2023-02-26T13:45:25 EST" name="opensign_inpage" finished-at="2023-02-26T13:45:26 EST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opensign_inpage -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:3, instance:dsalgo_Testscenarios.Tc_Login_datadriven@3f93e4a8]" started-at="2023-02-26T13:45:28 EST" name="loginDDT" data-provider="Logindata" finished-at="2023-02-26T13:45:30 EST" duration-ms="1641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345677]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:3, instance:dsalgo_Testscenarios.Tc_Login_datadriven@3f93e4a8]" started-at="2023-02-26T13:45:30 EST" name="loginDDT" data-provider="Logindata" finished-at="2023-02-26T13:45:31 EST" duration-ms="1471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[56789]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:3, instance:dsalgo_Testscenarios.Tc_Login_datadriven@3f93e4a8]" started-at="2023-02-26T13:45:31 EST" name="loginDDT" data-provider="Logindata" finished-at="2023-02-26T13:45:33 EST" duration-ms="1624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PapaJohns]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@1!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="logout()[pri:4, instance:dsalgo_Testscenarios.Tc_Login_datadriven@3f93e4a8]" started-at="2023-02-26T13:45:33 EST" name="logout" finished-at="2023-02-26T13:45:35 EST" duration-ms="2357" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at dsalgo_Testscenarios.Tc_Login_datadriven.logout(Tc_Login_datadriven.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsalgo_Testscenarios.Tc_Login_datadriven@3f93e4a8]" started-at="2023-02-26T13:45:35 EST" name="tearDown" finished-at="2023-02-26T13:45:35 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dsalgo_Testscenarios.Tc_Login_datadriven -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

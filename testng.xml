@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+		<!--<class name="dsalgo_Testscenarios.DS_Algo_Final_TestCase"></class>-->
+    <!-- <class name="dsalgo_Testscenarios.LoginTc_001"/>-->
+  <!--   <class name="dsalgo_Testscenarios.RegisterTc_01"></class>-->
+  <class name="dsalgo_Testscenarios.Tc_Login_datadriven"/>
+ <class name="dsalgo_Testscenarios.GraphTc_001"></class>
+   <!--<class name="dsalgo_Testscenarios.Data_StructuresTc_001"></class>-->
+       </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

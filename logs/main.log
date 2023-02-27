@@ -1,0 +1,22 @@
+2023-02-24 22:39:11,278 -0500 [main] INFO  (Tc_Login_datadriven.java:40) - User clicks on Homebutton
+2023-02-25 18:09:03,539 -0500 [main] INFO  (Tc_Login_datadriven.java:43) - User clicks on Homebutton
+2023-02-25 18:09:04,014 -0500 [main] INFO  (Tc_Login_datadriven.java:45) - user clicks on Signin button
+2023-02-25 18:13:25,821 -0500 [main] INFO  (Tc_Login_datadriven.java:43) - User clicks on Homebutton
+2023-02-25 18:13:26,490 -0500 [main] INFO  (Tc_Login_datadriven.java:45) - user clicks on Signin button
+2023-02-25 18:19:16,935 -0500 [main] INFO  (Tc_Login_datadriven.java:43) - User clicks on Homebutton
+2023-02-25 18:19:17,207 -0500 [main] INFO  (Tc_Login_datadriven.java:45) - user clicks on Signin button
+2023-02-25 18:31:55,187 -0500 [main] INFO  (Tc_Login_datadriven.java:54) - User clicks on Homebutton
+2023-02-25 18:31:55,375 -0500 [main] INFO  (Tc_Login_datadriven.java:56) - user clicks on Signin button
+2023-02-25 18:34:25,873 -0500 [main] INFO  (Tc_Login_datadriven.java:54) - User clicks on Homebutton
+2023-02-25 18:34:26,068 -0500 [main] INFO  (Tc_Login_datadriven.java:56) - user clicks on Signin button
+2023-02-25 18:36:52,840 -0500 [main] INFO  (Tc_Login_datadriven.java:54) - User clicks on Homebutton
+2023-02-25 18:36:53,035 -0500 [main] INFO  (Tc_Login_datadriven.java:56) - user clicks on Signin button
+2023-02-25 22:12:11,873 -0500 [main] INFO  (Tc_Login_datadriven.java:54) - User clicks on Homebutton
+2023-02-25 22:12:12,069 -0500 [main] INFO  (Tc_Login_datadriven.java:56) - user clicks on Signin button
+2023-02-26 11:30:17,714 -0500 [main] INFO  (Tc_Login_datadriven.java:58) - User clicks on Homebutton
+2023-02-26 11:30:18,028 -0500 [main] INFO  (Tc_Login_datadriven.java:60) - user clicks on Signin button
+2023-02-26 11:31:27,115 -0500 [main] INFO  (Tc_Login_datadriven.java:58) - User clicks on Homebutton
+2023-02-26 11:31:27,514 -0500 [main] INFO  (Tc_Login_datadriven.java:60) - user clicks on Signin button
+2023-02-26 13:45:25,903 -0500 [main] INFO  (Tc_Login_datadriven.java:58) - User clicks on Homebutton
+2023-02-26 13:45:26,330 -0500 [main] INFO  (Tc_Login_datadriven.java:60) - user clicks on Signin button
+2023-02-26 13:45:36,138 -0500 [main] INFO  (GraphTc_001.java:42) - user clicks on Signin button
