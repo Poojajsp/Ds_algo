@@ -44,22 +44,8 @@ public String getpassword()
 String password=pro.getProperty("password");
 return password;
 }
-public String getchromepath()
-{
-	String chromepath=pro.getProperty("chromepath");
-return chromepath;
-	
-}
-public String getfirefox()
-{
-	String firefox=pro.getProperty("firefoxpath");
-return firefox;
-	}
-public String getmsedge()
-{
-	String msedge=pro.getProperty("msedgepath");
-return msedge;
-}
+
+
 public String getcode() {
 String pythoncode=pro.getProperty("code");
 return pythoncode;

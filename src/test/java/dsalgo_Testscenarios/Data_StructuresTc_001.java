@@ -52,11 +52,14 @@ public class Data_StructuresTc_001 extends BaseClass
 	@DataProvider(name="Python")
 	String [][] getdata() throws IOException 
 	 {
-	 //String path="C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\TestData\\Ds_algo_Testdata.xlsx";
-		String dir = System.getProperty("user.dir");
-		   String path=dir+"\\src\\test\\resources\\TestData\\Ds_algo_Testdata.xlsx";
-		int rownum=XLUtils.getRowCount(path,"python_code");
-	 int cocount=XLUtils.getcellcount(path,"python_code",1);
+
+		String userdirectory =  System.getProperty("user.dir");
+		String path=userdirectory+"src\\test\\resources\\TestData\\pythoncode.xlsx";
+	
+	 int rownum=XLUtils.getRowCount(path,"Sheet1");
+	 int cocount=XLUtils.getcellcount(path,"Sheet1",1);
+
+
 	String pycode[][]=new String[rownum][cocount];
 	for(int i=1; i<=rownum;i++)
 	{
