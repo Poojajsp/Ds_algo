@@ -91,7 +91,10 @@ public class GraphTc_001 extends BaseClass
 @DataProvider(name="Logindata")
 String [][] getData() throws IOException 
  {
- String path="C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\TestData\\validlogininputs.xlsx";
+	
+	String userdirectory =  System.getProperty("user.dir");
+	String path=userdirectory+"src\\test\\resources\\TestData\\validlogininputs.xlsx";
+ //String path="C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\TestData\\validlogininputs.xlsx";
  int rownum=XLUtils.getRowCount(path,"Sheet1");
  int cocount=XLUtils.getcellcount(path,"Sheet1",1);
 String logindata[][]=new String[rownum][cocount];

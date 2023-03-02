@@ -4,14 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="dsalgo_Testscenarios.Tc_Login_datadriven">
+      <class name="dsalgo_Testscenarios.Login_TC">
         <methods>
           <include name="tearDown"/>
-          <include name="logout"/>
-          <include name="Skip_test"/>
+          <include name="aa_loginDDT" invocation-numbers="0 1"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- dsalgo_Testscenarios.Tc_Login_datadriven -->
+      </class> <!-- dsalgo_Testscenarios.Login_TC -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -30,7 +30,8 @@ public class excel {
 				 cell.setCellValue("Row "+i+ " column "+j);
 			 }
 		 }
-		String path="C:/Users/pooja/eclipse-workspace/Ds_algo/src/test/resources/TestData/dsalgodata.xlsx";
+	    String userdirectory =  System.getProperty("user.dir");
+		String path=userdirectory+"src\\test\\resources\\TestData\\dsalgodata.xlsx";
 		File Excelfile=new File(path);
 		 FileOutputStream Fos=null;
 		 try 
@@ -51,8 +52,10 @@ public class excel {
 	 }
 	 
 	 public static void ReadExcelSheet() throws IOException {
+		  String userdirectory =  System.getProperty("user.dir");
+			String path=userdirectory+"src\\test\\resources\\TestData\\dsalgodata.xlsx";
 		 
-		 String path="C:/Users/pooja/eclipse-workspace/Ds_algo/src/test/resources/TestData/dsalgodata.xlsx";
+		// String path="C:/Users/pooja/eclipse-workspace/Ds_algo/src/test/resources/TestData/dsalgodata.xlsx";
 			File Excelfile=new File(path);
 	 
 	 FileInputStream Fis= new FileInputStream(Excelfile);

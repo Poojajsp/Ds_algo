@@ -1,22 +1,188 @@
-2023-02-24 22:39:11,278 -0500 [main] INFO  (Tc_Login_datadriven.java:40) - User clicks on Homebutton
-2023-02-25 18:09:03,539 -0500 [main] INFO  (Tc_Login_datadriven.java:43) - User clicks on Homebutton
-2023-02-25 18:09:04,014 -0500 [main] INFO  (Tc_Login_datadriven.java:45) - user clicks on Signin button
-2023-02-25 18:13:25,821 -0500 [main] INFO  (Tc_Login_datadriven.java:43) - User clicks on Homebutton
-2023-02-25 18:13:26,490 -0500 [main] INFO  (Tc_Login_datadriven.java:45) - user clicks on Signin button
-2023-02-25 18:19:16,935 -0500 [main] INFO  (Tc_Login_datadriven.java:43) - User clicks on Homebutton
-2023-02-25 18:19:17,207 -0500 [main] INFO  (Tc_Login_datadriven.java:45) - user clicks on Signin button
-2023-02-25 18:31:55,187 -0500 [main] INFO  (Tc_Login_datadriven.java:54) - User clicks on Homebutton
-2023-02-25 18:31:55,375 -0500 [main] INFO  (Tc_Login_datadriven.java:56) - user clicks on Signin button
-2023-02-25 18:34:25,873 -0500 [main] INFO  (Tc_Login_datadriven.java:54) - User clicks on Homebutton
-2023-02-25 18:34:26,068 -0500 [main] INFO  (Tc_Login_datadriven.java:56) - user clicks on Signin button
-2023-02-25 18:36:52,840 -0500 [main] INFO  (Tc_Login_datadriven.java:54) - User clicks on Homebutton
-2023-02-25 18:36:53,035 -0500 [main] INFO  (Tc_Login_datadriven.java:56) - user clicks on Signin button
-2023-02-25 22:12:11,873 -0500 [main] INFO  (Tc_Login_datadriven.java:54) - User clicks on Homebutton
-2023-02-25 22:12:12,069 -0500 [main] INFO  (Tc_Login_datadriven.java:56) - user clicks on Signin button
-2023-02-26 11:30:17,714 -0500 [main] INFO  (Tc_Login_datadriven.java:58) - User clicks on Homebutton
-2023-02-26 11:30:18,028 -0500 [main] INFO  (Tc_Login_datadriven.java:60) - user clicks on Signin button
-2023-02-26 11:31:27,115 -0500 [main] INFO  (Tc_Login_datadriven.java:58) - User clicks on Homebutton
-2023-02-26 11:31:27,514 -0500 [main] INFO  (Tc_Login_datadriven.java:60) - user clicks on Signin button
-2023-02-26 13:45:25,903 -0500 [main] INFO  (Tc_Login_datadriven.java:58) - User clicks on Homebutton
-2023-02-26 13:45:26,330 -0500 [main] INFO  (Tc_Login_datadriven.java:60) - user clicks on Signin button
-2023-02-26 13:45:36,138 -0500 [main] INFO  (GraphTc_001.java:42) - user clicks on Signin button
+2023-03-01 17:18:00,254 -0500 [main] DEBUG (InternalLoggerFactory.java:76) - Using Log4J2 as the default logging framework
+2023-03-01 17:18:00,286 -0500 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-03-01 17:18:00,287 -0500 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-01 17:18:00,298 -0500 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@39e7e040
+2023-03-01 17:18:00,375 -0500 [main] DEBUG (PlatformDependent0.java:460) - -Dio.netty.noUnsafe: false
+2023-03-01 17:18:00,376 -0500 [main] DEBUG (PlatformDependent0.java:954) - Java version: 19
+2023-03-01 17:18:00,380 -0500 [main] DEBUG (PlatformDependent0.java:135) - sun.misc.Unsafe.theUnsafe: available
+2023-03-01 17:18:00,383 -0500 [main] DEBUG (PlatformDependent0.java:159) - sun.misc.Unsafe.copyMemory: available
+2023-03-01 17:18:00,385 -0500 [main] DEBUG (PlatformDependent0.java:202) - java.nio.Buffer.address: available
+2023-03-01 17:18:00,387 -0500 [main] DEBUG (PlatformDependent0.java:285) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-03-01 17:18:00,389 -0500 [main] DEBUG (PlatformDependent0.java:350) - java.nio.Bits.unaligned: available, true
+2023-03-01 17:18:00,392 -0500 [main] DEBUG (PlatformDependent0.java:417) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5d3411d
+2023-03-01 17:18:00,394 -0500 [main] DEBUG (PlatformDependent0.java:446) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-03-01 17:18:00,395 -0500 [main] DEBUG (PlatformDependent.java:1116) - sun.misc.Unsafe: available
+2023-03-01 17:18:00,396 -0500 [main] DEBUG (PlatformDependent.java:1227) - maxDirectMemory: 2122317824 bytes (maybe)
+2023-03-01 17:18:00,397 -0500 [main] DEBUG (PlatformDependent.java:1246) - -Dio.netty.tmpdir: C:\Users\kanth\AppData\Local\Temp (java.io.tmpdir)
+2023-03-01 17:18:00,397 -0500 [main] DEBUG (PlatformDependent.java:1325) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-01 17:18:00,398 -0500 [main] DEBUG (PlatformDependent.java:1076) - Platform: Windows
+2023-03-01 17:18:00,401 -0500 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-03-01 17:18:00,402 -0500 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-01 17:18:00,405 -0500 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-03-01 17:18:00,405 -0500 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-03-01 17:18:00,432 -0500 [main] DEBUG (PlatformDependent.java:967) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-01 17:18:00,522 -0500 [main] DEBUG (InternalThreadLocalMap.java:86) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-01 17:18:00,523 -0500 [main] DEBUG (InternalThreadLocalMap.java:89) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-01 17:18:00,580 -0500 [main] DEBUG (JdkSslContext.java:97) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-03-01 17:18:00,581 -0500 [main] DEBUG (JdkSslContext.java:98) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-03-01 17:18:00,970 -0500 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 8
+2023-03-01 17:18:00,991 -0500 [main] DEBUG (NioEventLoop.java:109) - -Dio.netty.noKeySetOptimization: false
+2023-03-01 17:18:00,992 -0500 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-01 17:18:01,233 -0500 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 8
+2023-03-01 17:18:01,234 -0500 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 8
+2023-03-01 17:18:01,234 -0500 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2023-03-01 17:18:01,235 -0500 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2023-03-01 17:18:01,235 -0500 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2023-03-01 17:18:01,235 -0500 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-01 17:18:01,236 -0500 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-01 17:18:01,236 -0500 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-01 17:18:01,236 -0500 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-01 17:18:01,237 -0500 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-01 17:18:01,237 -0500 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-03-01 17:18:01,237 -0500 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-01 17:18:01,266 -0500 [main] DEBUG (ByteBufUtil.java:87) - -Dio.netty.allocator.type: pooled
+2023-03-01 17:18:01,267 -0500 [main] DEBUG (ByteBufUtil.java:96) - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-01 17:18:01,268 -0500 [main] DEBUG (ByteBufUtil.java:99) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-01 17:18:24,359 -0500 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 4068 (auto-detected)
+2023-03-01 17:18:24,379 -0500 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:136) - -Djava.net.preferIPv4Stack: false
+2023-03-01 17:18:24,380 -0500 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:137) - -Djava.net.preferIPv6Addresses: false
+2023-03-01 17:18:24,406 -0500 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:129) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-01 17:18:24,484 -0500 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:191) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-01 17:18:24,517 -0500 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: d4:6a:6a:ff:fe:9f:44:69 (auto-detected)
+2023-03-01 17:18:25,526 -0500 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2023-03-01 17:18:25,528 -0500 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2023-03-01 17:18:25,528 -0500 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2f640938
+2023-03-01 17:18:25,963 -0500 [AsyncHttpClient-1-2] DEBUG (Recycler.java:85) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-03-01 17:18:25,963 -0500 [AsyncHttpClient-1-2] DEBUG (Recycler.java:86) - -Dio.netty.recycler.ratio: 8
+2023-03-01 17:18:25,964 -0500 [AsyncHttpClient-1-2] DEBUG (Recycler.java:87) - -Dio.netty.recycler.chunkSize: 32
+2023-03-01 17:18:25,964 -0500 [AsyncHttpClient-1-2] DEBUG (Recycler.java:88) - -Dio.netty.recycler.blocking: false
+2023-03-01 17:18:36,984 -0500 [main] DEBUG (InternalLoggerFactory.java:76) - Using Log4J2 as the default logging framework
+2023-03-01 17:18:37,005 -0500 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-03-01 17:18:37,006 -0500 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-01 17:18:37,017 -0500 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6c830ebd
+2023-03-01 17:18:37,109 -0500 [main] DEBUG (PlatformDependent0.java:460) - -Dio.netty.noUnsafe: false
+2023-03-01 17:18:37,110 -0500 [main] DEBUG (PlatformDependent0.java:954) - Java version: 19
+2023-03-01 17:18:37,113 -0500 [main] DEBUG (PlatformDependent0.java:135) - sun.misc.Unsafe.theUnsafe: available
+2023-03-01 17:18:37,115 -0500 [main] DEBUG (PlatformDependent0.java:159) - sun.misc.Unsafe.copyMemory: available
+2023-03-01 17:18:37,118 -0500 [main] DEBUG (PlatformDependent0.java:202) - java.nio.Buffer.address: available
+2023-03-01 17:18:37,120 -0500 [main] DEBUG (PlatformDependent0.java:285) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-03-01 17:18:37,123 -0500 [main] DEBUG (PlatformDependent0.java:350) - java.nio.Bits.unaligned: available, true
+2023-03-01 17:18:37,126 -0500 [main] DEBUG (PlatformDependent0.java:417) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5d3411d
+2023-03-01 17:18:37,128 -0500 [main] DEBUG (PlatformDependent0.java:446) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-03-01 17:18:37,129 -0500 [main] DEBUG (PlatformDependent.java:1116) - sun.misc.Unsafe: available
+2023-03-01 17:18:37,130 -0500 [main] DEBUG (PlatformDependent.java:1227) - maxDirectMemory: 2122317824 bytes (maybe)
+2023-03-01 17:18:37,131 -0500 [main] DEBUG (PlatformDependent.java:1246) - -Dio.netty.tmpdir: C:\Users\kanth\AppData\Local\Temp (java.io.tmpdir)
+2023-03-01 17:18:37,131 -0500 [main] DEBUG (PlatformDependent.java:1325) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-01 17:18:37,132 -0500 [main] DEBUG (PlatformDependent.java:1076) - Platform: Windows
+2023-03-01 17:18:37,134 -0500 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-03-01 17:18:37,135 -0500 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-01 17:18:37,139 -0500 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-03-01 17:18:37,139 -0500 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-03-01 17:18:37,180 -0500 [main] DEBUG (PlatformDependent.java:967) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-01 17:18:37,281 -0500 [main] DEBUG (InternalThreadLocalMap.java:86) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-01 17:18:37,281 -0500 [main] DEBUG (InternalThreadLocalMap.java:89) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-01 17:18:37,361 -0500 [main] DEBUG (JdkSslContext.java:97) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-03-01 17:18:37,361 -0500 [main] DEBUG (JdkSslContext.java:98) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-03-01 17:18:37,465 -0500 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 8
+2023-03-01 17:18:37,487 -0500 [main] DEBUG (NioEventLoop.java:109) - -Dio.netty.noKeySetOptimization: false
+2023-03-01 17:18:37,488 -0500 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-01 17:18:37,743 -0500 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-03-01 17:18:37,798 -0500 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 8
+2023-03-01 17:18:37,799 -0500 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 8
+2023-03-01 17:18:37,799 -0500 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2023-03-01 17:18:37,800 -0500 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2023-03-01 17:18:37,800 -0500 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2023-03-01 17:18:37,801 -0500 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-01 17:18:37,802 -0500 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-01 17:18:37,802 -0500 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-01 17:18:37,802 -0500 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-01 17:18:37,802 -0500 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-01 17:18:37,803 -0500 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-03-01 17:18:37,803 -0500 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-01 17:18:37,830 -0500 [main] DEBUG (ByteBufUtil.java:87) - -Dio.netty.allocator.type: pooled
+2023-03-01 17:18:37,830 -0500 [main] DEBUG (ByteBufUtil.java:96) - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-01 17:18:37,831 -0500 [main] DEBUG (ByteBufUtil.java:99) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-01 17:18:38,767 -0500 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 7796 (auto-detected)
+2023-03-01 17:18:38,771 -0500 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:136) - -Djava.net.preferIPv4Stack: false
+2023-03-01 17:18:38,772 -0500 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:137) - -Djava.net.preferIPv6Addresses: false
+2023-03-01 17:18:38,784 -0500 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:129) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-01 17:18:38,786 -0500 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:191) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-01 17:18:38,820 -0500 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: d4:6a:6a:ff:fe:9f:44:69 (auto-detected)
+2023-03-01 17:18:38,931 -0500 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2023-03-01 17:18:38,932 -0500 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2023-03-01 17:18:38,932 -0500 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4dad95fe
+2023-03-01 17:18:38,985 -0500 [AsyncHttpClient-1-2] DEBUG (Recycler.java:85) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-03-01 17:18:38,986 -0500 [AsyncHttpClient-1-2] DEBUG (Recycler.java:86) - -Dio.netty.recycler.ratio: 8
+2023-03-01 17:18:38,987 -0500 [AsyncHttpClient-1-2] DEBUG (Recycler.java:87) - -Dio.netty.recycler.chunkSize: 32
+2023-03-01 17:18:38,987 -0500 [AsyncHttpClient-1-2] DEBUG (Recycler.java:88) - -Dio.netty.recycler.blocking: false
+2023-03-01 17:18:43,694 -0500 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x913f927f80db9123
+2023-03-01 17:18:47,029 -0500 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-03-01 17:18:47,265 -0500 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x403db7504db695a0
+2023-03-01 17:19:07,170 -0500 [main] INFO  (Login_TC.java:25) - User is in the page-NumpyNinja
+2023-03-01 17:19:07,171 -0500 [main] INFO  (Login_TC.java:26) - User clicks on GetStarted button
+2023-03-01 17:19:07,174 -0500 [main] INFO  (Login_TC.java:25) - User is in the page-NumpyNinja
+2023-03-01 17:19:07,175 -0500 [main] INFO  (Login_TC.java:26) - User clicks on GetStarted button
+2023-03-01 17:19:09,363 -0500 [main] INFO  (Login_TC.java:35) - User is in the page-Login
+2023-03-01 17:19:09,363 -0500 [main] INFO  (Login_TC.java:36) - user clicks on Signin button
+2023-03-01 17:19:17,993 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:18,003 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:18,010 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:28,420 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:28,422 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:28,424 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:28,459 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:28,461 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:28,463 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:28,538 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:28,540 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:28,542 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:28,586 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:28,589 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:28,590 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:28,617 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:28,620 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:28,623 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:28,723 -0500 [main] INFO  (Login_TC.java:46) - Enters Username
+2023-03-01 17:19:28,788 -0500 [main] INFO  (Login_TC.java:48) - Enters Password
+2023-03-01 17:19:29,237 -0500 [main] INFO  (Login_TC.java:50) - clicks on Login Button
+2023-03-01 17:19:30,244 -0500 [main] INFO  (Login_TC.java:52) - User is logged in 
+2023-03-01 17:19:30,252 -0500 [main] INFO  (Login_TC.java:53) - User is in the page-Login
+2023-03-01 17:19:30,258 -0500 [main] INFO  (Login_TC.java:65) - Login not  Successful
+2023-03-01 17:19:30,420 -0500 [main] INFO  (Login_TC.java:46) - Enters Username
+2023-03-01 17:19:30,486 -0500 [main] INFO  (Login_TC.java:48) - Enters Password
+2023-03-01 17:19:31,088 -0500 [main] INFO  (Login_TC.java:50) - clicks on Login Button
+2023-03-01 17:19:32,100 -0500 [main] INFO  (Login_TC.java:52) - User is logged in 
+2023-03-01 17:19:32,112 -0500 [main] INFO  (Login_TC.java:53) - User is in the page-NumpyNinja
+2023-03-01 17:19:32,126 -0500 [main] INFO  (Login_TC.java:65) - Login not  Successful
+2023-03-01 17:19:35,456 -0500 [main] INFO  (Login_TC.java:35) - User is in the page-Login
+2023-03-01 17:19:35,456 -0500 [main] INFO  (Login_TC.java:36) - user clicks on Signin button
+2023-03-01 17:19:36,154 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:36,160 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:36,162 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:37,324 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:37,325 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:37,329 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:37,360 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:37,362 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:37,364 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:37,405 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:37,407 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:37,408 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:37,448 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:37,450 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:37,452 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:37,479 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-01 17:19:37,481 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-03-01 17:19:37,482 -0500 [main] DEBUG (PackageRelationshipCollection.java:309) - Parsing relationship: /_rels/.rels
+2023-03-01 17:19:37,600 -0500 [main] INFO  (Login_TC.java:46) - Enters Username
+2023-03-01 17:19:37,679 -0500 [main] INFO  (Login_TC.java:48) - Enters Password
+2023-03-01 17:19:38,077 -0500 [main] INFO  (Login_TC.java:50) - clicks on Login Button
+2023-03-01 17:19:39,092 -0500 [main] INFO  (Login_TC.java:52) - User is logged in 
+2023-03-01 17:19:39,098 -0500 [main] INFO  (Login_TC.java:53) - User is in the page-Login
+2023-03-01 17:19:39,107 -0500 [main] INFO  (Login_TC.java:65) - Login not  Successful
+2023-03-01 17:19:39,335 -0500 [main] INFO  (Login_TC.java:46) - Enters Username
+2023-03-01 17:19:39,396 -0500 [main] INFO  (Login_TC.java:48) - Enters Password
+2023-03-01 17:19:39,828 -0500 [main] INFO  (Login_TC.java:50) - clicks on Login Button
+2023-03-01 17:19:40,834 -0500 [main] INFO  (Login_TC.java:52) - User is logged in 
+2023-03-01 17:19:40,845 -0500 [main] INFO  (Login_TC.java:53) - User is in the page-NumpyNinja
+2023-03-01 17:19:40,854 -0500 [main] INFO  (Login_TC.java:65) - Login not  Successful
