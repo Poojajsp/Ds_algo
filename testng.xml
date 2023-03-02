@@ -5,10 +5,12 @@
 	  <parameter name="browser" value="chrome"></parameter>
     <classes>
 
+
 		
      <class name="dsalgo_Testscenarios.Register_TC"/>
   
    
+
 
 
        </classes>

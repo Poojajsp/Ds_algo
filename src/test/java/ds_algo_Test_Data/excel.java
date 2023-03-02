@@ -30,8 +30,10 @@ public class excel {
 				 cell.setCellValue("Row "+i+ " column "+j);
 			 }
 		 }
+
 	    String userdirectory =  System.getProperty("user.dir");
 		String path=userdirectory+"src\\test\\resources\\TestData\\dsalgodata.xlsx";
+
 		File Excelfile=new File(path);
 		 FileOutputStream Fos=null;
 		 try 
@@ -55,7 +57,9 @@ public class excel {
 		  String userdirectory =  System.getProperty("user.dir");
 			String path=userdirectory+"src\\test\\resources\\TestData\\dsalgodata.xlsx";
 		 
+
 		// String path="C:/Users/pooja/eclipse-workspace/Ds_algo/src/test/resources/TestData/dsalgodata.xlsx";
+
 			File Excelfile=new File(path);
 	 
 	 FileInputStream Fis= new FileInputStream(Excelfile);
