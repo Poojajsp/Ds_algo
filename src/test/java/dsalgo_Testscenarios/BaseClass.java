@@ -1,6 +1,7 @@
 package dsalgo_Testscenarios;
 
 
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -39,6 +40,7 @@ public class BaseClass {
 			{	WebDriverManager.chromedriver().setup();
 			PropertyConfigurator.configure("Log4j.properties");
 			logger =Logger.getLogger("DS-ALGO Project");
+
 			driver=new ChromeDriver();
 
 
@@ -48,12 +50,25 @@ public class BaseClass {
 			PropertyConfigurator.configure("Log4j.properties");
 			logger =Logger.getLogger("DS-ALGO Project");
 
+
 			driver=new FirefoxDriver();}
 
 			else if(br.equals("msedge"))
 			{WebDriverManager.edgedriver().setup();	
 			PropertyConfigurator.configure("Log4j.properties");
 			logger =Logger.getLogger("DS-ALGO Project");
+
+   driver=new EdgeDriver();    }
+  }
+	else
+	{return driver;}
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));	
+driver.manage().window().maximize();
+	driver.get(baseURL);
+	tdriver.set(driver);
+	return getDriver();
+}
+
 
 			driver=new EdgeDriver();    }
 		}

@@ -85,28 +85,7 @@ public class Login_Logout_Fail_Tc_001 extends BaseClass
          return false;
          
 }
-	 @Test(priority=4)
-	 @Description("User is clicking Signin and expecting loginpage")
-		@Severity(SeverityLevel.NORMAL)
-		public void a_opensign_inpage()
-	{Sign_in lpd=new Sign_in(driver);
-	//driver.get(baseURL);
-	  lpd.SIGN();
-	logger.info("user clicks on Signin button");
-	}
-	@Test(priority=6,dataProvider="Logindata")
-	public void aa_loginDDT(String user, String psd) throws InterruptedException
-	{Sign_in lpd=new Sign_in(driver);
-		lpd.setusername(user);
-		logger.info("Enters Username");
-		lpd.setpassword(psd);
-		logger.info("Enters Password");
-		lpd.Loginbutton();
-		logger.info("clicks on Login Button");
-		Thread.sleep(1000);
-		logger.info("User is logged in ");
-	}
-	 
+	
 	 @Test
 	 public void Skip_test()
 	 {
@@ -116,18 +95,19 @@ public class Login_Logout_Fail_Tc_001 extends BaseClass
 
 @DataProvider(name="Logindata")
   String [][] getData() throws IOException 
+
    {
 	String userdirectory =  System.getProperty("user.dir");
 		String path=userdirectory+"src\\test\\resources\\TestData\\login_invalid_valid.xlsx";
- //  String path="C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\TestData\\login_invalid_valid.xlsx";
    int rownum=XLUtils.getRowCount(path,"Sheet1");
    int cocount=XLUtils.getcellcount(path,"Sheet1",1);
+
   String logindata[][]=new String[rownum][cocount];
 for(int i=1; i<=rownum;i++)
 {
 	for(int j=0;j<cocount;j++)
 {
-		logindata[i-1][j]=XLUtils.getcellData(path,"Sheet1",i,j);
+		logindata[i-1][j]=XLUtils.getcellData(path,"invalid_valid",i,j);
 		}
    }
 return logindata;

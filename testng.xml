@@ -4,10 +4,13 @@
   <test thread-count="5" name="Test">
 	  <parameter name="browser" value="chrome"></parameter>
     <classes>
-		<!--<class name="dsalgo_Testscenarios.DS_Algo_Final_TestCase"></class>-->
+
+		
      <class name="dsalgo_Testscenarios.Register_TC"/>
-    <!-- <class name="dsalgo_Testscenarios.GraphTc_001"/>
-     
+  
+   
+
+
        </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
