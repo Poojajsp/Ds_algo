@@ -22,7 +22,7 @@ public class Screensht_Base {
 	 public WebDriver windows_setup() 
 		
 	    {
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\drivers");
+		 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\drivers");
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
 		driver.get("https://www.facebook.com");
@@ -37,7 +37,7 @@ public class Screensht_Base {
 		Timestamp timestamp= new Timestamp(System.currentTimeMillis());
 		
 			try {
-				FileUtils.copyFile(scrfile,new File("C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\Screeshots\\test"+tname+timestamp()+".jpg"));
+				FileUtils.copyFile(scrfile,new File(System.getProperty("user.dir")+"\\src\\test\\resources\\Screeshots\\test"+tname+timestamp()+".jpg"));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

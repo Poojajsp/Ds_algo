@@ -7,8 +7,8 @@
    <!--<class name="dsalgo_Testscenarios.RegisterTc_001"></class>-->
  <!-- <class name="dsalgo_Testscenarios.Login_Logout_Fail_Tc_001"></class>-->
   <class name="dsalgo_Testscenarios.Common_Login_Tc_001"></class>
- <!--<class name="dsalgo_Testscenarios.GraphTc_001"></class>
-   <class name="dsalgo_Testscenarios.Data_StructuresTc_001"></class>-->
+ <!--<class name="dsalgo_Testscenarios.GraphTc_001"></class>-->
+   <class name="dsalgo_Testscenarios.Data_StructuresTc_001"></class>
        </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -40,7 +40,7 @@ WebDriver ldriver;
 	 public void pythoncode(String code)
      { 
 		 //enter.click();
-		 //enter.clear();
+		 enter.clear();
 		 enter.sendKeys(code);}
 	
      public void Run()
