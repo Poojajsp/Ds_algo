@@ -82,43 +82,26 @@ public class GraphTc_001 extends BaseClass
 	public void g_run() {
 		Graph gp=new Graph(driver);
 		gp.Run();	
-	driver.navigate().to("https://dsportalapp.herokuapp.com/home");
+	driver.navigate().to(homepageURL);
 	}
 
-
-//dataprovider is used here to fetch logindata from excel sheet
-
-@DataProvider(name="Logindata")
-String [][] getData() throws IOException 
- {
- String path="C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\TestData\\validlogininputs.xlsx";
- int rownum=XLUtils.getRowCount(path,"Sheet1");
- int cocount=XLUtils.getcellcount(path,"Sheet1",1);
-String logindata[][]=new String[rownum][cocount];
-for(int i=1; i<=rownum;i++)
-{
-	for(int j=0;j<cocount;j++)
-{
-		logindata[i-1][j]=XLUtils.getcellData(path,"Sheet1",i,j);
-		}
- }
-return logindata;
-}
 
 //dataprovider is used here to fetch python code from excel sheet
 
 @DataProvider(name="Python")
 String [][] getdata() throws IOException 
  {
- String path="C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\TestData\\Python.xlsx";
- int rownum=XLUtils.getRowCount(path,"Sheet1");
- int cocount=XLUtils.getcellcount(path,"Sheet1",1);
+ //String path="C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\TestData\\Ds_algo_Testdata.xlsx";
+ String dir = System.getProperty("user.dir");
+	   String path=dir+"\\src\\test\\resources\\TestData\\Ds_algo_Testdata.xlsx";
+int rownum=XLUtils.getRowCount(path,"python_code");
+ int cocount=XLUtils.getcellcount(path,"python_code",1);
 String pycode[][]=new String[rownum][cocount];
 for(int i=1; i<=rownum;i++)
 {
 	for(int j=0;j<cocount;j++)
 {
-		pycode[i-1][j]=XLUtils.getcellData(path,"Sheet1",i,j);
+		pycode[i-1][j]=XLUtils.getcellData(path,"python_code",i,j);
 		}
  }
 return pycode;}

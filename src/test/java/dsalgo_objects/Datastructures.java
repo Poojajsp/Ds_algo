@@ -24,10 +24,10 @@ WebDriver ldriver;
 	 @FindBy (xpath="//a[text()='Sign out']")WebElement signout;
 	 @FindBy (xpath="//a[text()='Sign in']")WebElement signin;
 	 @FindBy (xpath="//div[@class='col-sm']/a")WebElement Tryhere;
-	//@FindBy (xpath="//*[@id=\"answer_form\"]/div/div/div[6]")WebElement enter;
-	 @FindBy (xpath="//button")WebElement Run;
-	 @FindBy (id="answer_form")WebElement enter;
-	
+   @FindBy (xpath="//*[@id=\"answer_form\"]/div/div/div[6]")WebElement enter;
+   	 @FindBy (xpath="//button")WebElement Run;
+	// @FindBy (id="answer_form")WebElement enter;
+	//@FindBy (xpath="//pre[@class=' CodeMirror-line ']/span")WebElement enter;
 
 
 	public void Get_started()
@@ -38,7 +38,11 @@ WebDriver ldriver;
 		{Tryhere.click();}
 	
 	 public void pythoncode(String code)
-     { enter.sendKeys(code);}
+     { 
+		 //enter.click();
+		 //enter.clear();
+		 enter.sendKeys(code);}
+	
      public void Run()
      {Run.click();}
 

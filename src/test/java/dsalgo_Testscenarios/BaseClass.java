@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -48,7 +49,6 @@ if(driver==null)
 			{	WebDriverManager.chromedriver().setup();
 			PropertyConfigurator.configure("Log4j.properties");
 			logger =Logger.getLogger("DS-ALGO Project");
-		//System.setProperty("webdriver.chrome.driver",readconfig.getchromepath());
             driver=new ChromeDriver();
 
   
@@ -57,19 +57,17 @@ if(driver==null)
 			{WebDriverManager.firefoxdriver().setup();	
 			PropertyConfigurator.configure("Log4j.properties");
 			logger =Logger.getLogger("DS-ALGO Project");
-		//System.setProperty("webdriver.gecko.driver",readconfig.getfirefox());
     driver=new FirefoxDriver();}
 	
 	else if(br.equals("msedge"))
 			{WebDriverManager.edgedriver().setup();	
 			PropertyConfigurator.configure("Log4j.properties");
 			logger =Logger.getLogger("DS-ALGO Project");
-		//System.setProperty("webdriver.edge.driver",readconfig.getmsedge());
    driver=new EdgeDriver();    }
   }
 	else
 	{return driver;}
-driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);	
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));	
 driver.manage().window().maximize();
 	driver.get(baseURL);
 	tdriver.set(driver);
@@ -84,7 +82,8 @@ public void SS(WebDriver driver, String tname)
 	Timestamp timestamp= new Timestamp(System.currentTimeMillis());
 	
 		try {
-			FileUtils.copyFile(scrfile,new File("C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\Screeshots\\test_"+tname+"_"+timestamp()+".jpg"));
+			FileUtils.copyFile(scrfile,new File(System.getProperty("user.dir")+"\\src\\test\\resources\\Screeshots\\test_"+tname+"_"+timestamp()+".jpg"));
+			//FileUtils.copyFile(scrfile,new File("C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\Screeshots\\test_"+tname+"_"+timestamp()+".jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
