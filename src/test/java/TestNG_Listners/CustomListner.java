@@ -9,7 +9,7 @@ import org.testng.ITestResult;
 
 public class CustomListner extends Screensht_Base implements ITestListener {
 	
-	WebDriver driver =null;
+	WebDriver driver=null;
 	
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -24,7 +24,7 @@ public class CustomListner extends Screensht_Base implements ITestListener {
 	public void onTestFailure(ITestResult result)  {
 		System.out.println("Failed Test");
 		ITestContext context=result.getTestContext();
-		driver= (WebDriver) context.getAttribute("WebDriver");
+		driver=(WebDriver) context.getAttribute("WebDriver");
 		SS(driver, "test");
 		
 		

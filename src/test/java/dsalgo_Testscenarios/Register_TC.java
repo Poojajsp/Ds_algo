@@ -2,32 +2,44 @@ package dsalgo_Testscenarios;
 
 
 
+import static org.testng.Assert.assertTrue;
+
 import java.io.IOException;
 
 import org.testng.Assert;
+import org.testng.ITestContext;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import TestNG_Listners.CustomListner;
 import ds_algo_Utilities.XLUtils;
-import dsalgo_objects.Register;
-
+import dsalgo_objects.Register_POM;
+@Listeners(CustomListner.class)
 public class Register_TC extends BaseClass
-{ // This is for Register
-
-	@Test
+{ 
+	
+	@BeforeClass
+	public void setDriver(ITestContext context) 
+	{
+		context.setAttribute("WebDriver", driver);
+	}
+	@Test(priority=1)
 	public void openregpage()
 	{
-		Register reg=new Register(driver);
+		Register_POM reg=new Register_POM(driver);
+		driver.get(baseURL);
 		reg.homepage();
 		reg.dropdown();
 		reg.array();
 		reg.registerpage();
 	}
 
-	@Test(dataProvider="Registerdata")
+	@Test(priority=2,dataProvider="Registerdata")
 	public void register(String user, String psd, String psd2) throws InterruptedException
 	{
-		Register reg=new Register(driver);
+		Register_POM reg=new Register_POM(driver);
 		reg.setusername(user);
 
 		reg.setpaswrd(psd);
@@ -36,37 +48,44 @@ public class Register_TC extends BaseClass
 
 		reg.submit();
 
-		if(driver.getTitle()=="NumpyNinja")
+		if(driver.getCurrentUrl().equals(homepageURL))
 		{
-			logger.info("Register is successful");
-			Assert.assertTrue(true);
-
+			logger.info("Register Successful");
+			
+			Thread.sleep(5000);
+			assertTrue(true);
+			
 		}
+
 		else 
 		{
-			logger.info("Register is not successful");
-			Assert.assertTrue(false);
-		}
+		
+			logger.info("Register not  Successful");
+			assertTrue(false);
+		
+	    }
 
+	}
+	@Test(priority=3)
+	public void backto_home()
+	{
+		//driver.navigate().to(baseURL);
 	}
 
 
 	@DataProvider(name="Registerdata")
 	String [][] getData() throws IOException 
 	{
-
-
 		String userdirectory =  System.getProperty("user.dir");
-		System.out.print("success");
-		String path=userdirectory+"\\src\\test\\resources\\TestData\\registerinputs.xlsx";
-		int rownum=XLUtils.getRowCount(path,"Sheet1");
-		int cocount=XLUtils.getcellcount(path,"Sheet1",1);
+		String path=userdirectory+"\\src\\test\\resources\\TestData\\Ds_algo_Testdata.xlsx";
+		int rownum=XLUtils.getRowCount(path,"Register");
+		int cocount=XLUtils.getcellcount(path,"Register",1);
 		String regdata[][]=new String[rownum][cocount];
 		for(int i=1; i<=rownum;i++)
 		{
 			for(int j=0;j<cocount;j++)
 			{
-				regdata[i-1][j]=XLUtils.getcellData(path,"Sheet1",i,j);
+				regdata[i-1][j]=XLUtils.getcellData(path,"Register",i,j);
 			}
 		}
 		return regdata;

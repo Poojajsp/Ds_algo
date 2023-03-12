@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+<testng-results ignored="7" total="54" passed="40" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-01T17:17:45 EST" name="Suite" finished-at="2023-03-01T17:19:40 EST" duration-ms="115644">
+  <suite started-at="2023-03-09T19:59:00 EST" name="Suite" finished-at="2023-03-09T20:00:30 EST" duration-ms="89674">
     <groups>
     </groups>
-    <test started-at="2023-03-01T17:17:45 EST" name="Test" finished-at="2023-03-01T17:19:40 EST" duration-ms="115644">
-      <class name="dsalgo_Testscenarios.Login_TC">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.Login_TC@2a22ad2b]" started-at="2023-03-01T17:17:45 EST" name="setup" finished-at="2023-03-01T17:18:54 EST" duration-ms="69590" status="PASS">
+    <test started-at="2023-03-09T19:59:00 EST" name="Test" finished-at="2023-03-09T20:00:30 EST" duration-ms="89674">
+      <class name="dsalgo_Testscenarios.Data_Structures_TC">
+        <test-method signature="Timecomplex()[pri:1, instance:dsalgo_Testscenarios.Data_Structures_TC@2b61a019]" started-at="2023-03-09T19:59:18 EST" name="Timecomplex" finished-at="2023-03-09T19:59:19 EST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Timecomplex -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.Data_Structures_TC@2b61a019]" started-at="2023-03-09T19:59:18 EST" name="setup" finished-at="2023-03-09T19:59:18 EST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,24 +22,323 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="a_opensign_inpage()[pri:1, instance:dsalgo_Testscenarios.Login_TC@2a22ad2b]" started-at="2023-03-01T17:18:54 EST" name="a_opensign_inpage" finished-at="2023-03-01T17:19:07 EST" duration-ms="12251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a_opensign_inpage -->
-        <test-method signature="sign_inpage()[pri:3, instance:dsalgo_Testscenarios.Login_TC@2a22ad2b]" started-at="2023-03-01T17:19:08 EST" name="sign_inpage" finished-at="2023-03-01T17:19:35 EST" duration-ms="27268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sign_inpage -->
-        <test-method signature="aa_loginDDT(java.lang.String,java.lang.String)[pri:5, instance:dsalgo_Testscenarios.Login_TC@2a22ad2b]" started-at="2023-03-01T17:19:37 EST" name="aa_loginDDT" data-provider="Valid_Logindata" finished-at="2023-03-01T17:19:39 EST" duration-ms="1597" status="FAIL">
+        <test-method signature="DSText_editor(java.lang.String)[pri:2, instance:dsalgo_Testscenarios.Data_Structures_TC@2b61a019]" started-at="2023-03-09T19:59:19 EST" name="DSText_editor" data-provider="Python" finished-at="2023-03-09T19:59:22 EST" duration-ms="2526" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[facebook]]>
+                <![CDATA[print("Success")]]>
               </value>
             </param>
-            <param index="1">
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DSText_editor -->
+        <test-method is-config="true" signature="n()[pri:0, instance:dsalgo_Testscenarios.Data_Structures_TC@2b61a019]" started-at="2023-03-09T19:59:22 EST" name="n" finished-at="2023-03-09T19:59:22 EST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- n -->
+      </class> <!-- dsalgo_Testscenarios.Data_Structures_TC -->
+      <class name="dsalgo_Testscenarios.Stack_TC">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.Stack_TC@4992613f]" started-at="2023-03-09T19:59:53 EST" name="setup" finished-at="2023-03-09T19:59:53 EST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
               <value>
-                <![CDATA[Website@1]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="b_Stackpage()[pri:1, instance:dsalgo_Testscenarios.Stack_TC@4992613f]" started-at="2023-03-09T19:59:53 EST" name="b_Stackpage" finished-at="2023-03-09T19:59:54 EST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_Stackpage -->
+        <test-method signature="exuteoperationinstack(java.lang.String)[pri:2, instance:dsalgo_Testscenarios.Stack_TC@4992613f]" started-at="2023-03-09T19:59:55 EST" name="exuteoperationinstack" data-provider="Python_Code" finished-at="2023-03-09T19:59:56 EST" duration-ms="1208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exuteoperationinstack -->
+        <test-method signature="exuteImplemation(java.lang.String)[pri:3, instance:dsalgo_Testscenarios.Stack_TC@4992613f]" started-at="2023-03-09T19:59:56 EST" name="exuteImplemation" data-provider="Python_Code" finished-at="2023-03-09T19:59:58 EST" duration-ms="1869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exuteImplemation -->
+        <test-method signature="exutapplications(java.lang.String)[pri:4, instance:dsalgo_Testscenarios.Stack_TC@4992613f]" started-at="2023-03-09T19:59:58 EST" name="exutapplications" data-provider="Python_Code" finished-at="2023-03-09T19:59:59 EST" duration-ms="1140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exutapplications -->
+        <test-method signature="excutepracticequestions()[pri:5, instance:dsalgo_Testscenarios.Stack_TC@4992613f]" started-at="2023-03-09T19:59:59 EST" name="excutepracticequestions" finished-at="2023-03-09T20:00:00 EST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excutepracticequestions -->
+      </class> <!-- dsalgo_Testscenarios.Stack_TC -->
+      <class name="dsalgo_Testscenarios.LinkedList_TC">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.LinkedList_TC@7ce9e05a]" started-at="2023-03-09T19:59:35 EST" name="setup" finished-at="2023-03-09T19:59:35 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Linkedlistpage()[pri:1, instance:dsalgo_Testscenarios.LinkedList_TC@7ce9e05a]" started-at="2023-03-09T19:59:35 EST" name="Linkedlistpage" finished-at="2023-03-09T19:59:35 EST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Linkedlistpage -->
+        <test-method signature="LinkedList_Introduction(java.lang.String)[pri:2, instance:dsalgo_Testscenarios.LinkedList_TC@7ce9e05a]" started-at="2023-03-09T19:59:35 EST" name="LinkedList_Introduction" data-provider="phytoncode" finished-at="2023-03-09T19:59:37 EST" duration-ms="1554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedList_Introduction -->
+        <test-method signature="LinkedList_Create(java.lang.String)[pri:3, instance:dsalgo_Testscenarios.LinkedList_TC@7ce9e05a]" started-at="2023-03-09T19:59:38 EST" name="LinkedList_Create" data-provider="phytoncode" finished-at="2023-03-09T19:59:38 EST" duration-ms="858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedList_Create -->
+        <test-method signature="LinkedList_Types(java.lang.String)[pri:4, instance:dsalgo_Testscenarios.LinkedList_TC@7ce9e05a]" started-at="2023-03-09T19:59:39 EST" name="LinkedList_Types" data-provider="phytoncode" finished-at="2023-03-09T19:59:39 EST" duration-ms="757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedList_Types -->
+        <test-method signature="LinkedList_implement(java.lang.String)[pri:5, instance:dsalgo_Testscenarios.LinkedList_TC@7ce9e05a]" started-at="2023-03-09T19:59:40 EST" name="LinkedList_implement" data-provider="phytoncode" finished-at="2023-03-09T19:59:40 EST" duration-ms="609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedList_implement -->
+        <test-method signature="LinkedList_trasversal(java.lang.String)[pri:6, instance:dsalgo_Testscenarios.LinkedList_TC@7ce9e05a]" started-at="2023-03-09T19:59:40 EST" name="LinkedList_trasversal" data-provider="phytoncode" finished-at="2023-03-09T19:59:41 EST" duration-ms="804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedList_trasversal -->
+        <test-method signature="LinkedList_insertion(java.lang.String)[pri:7, instance:dsalgo_Testscenarios.LinkedList_TC@7ce9e05a]" started-at="2023-03-09T19:59:41 EST" name="LinkedList_insertion" data-provider="phytoncode" finished-at="2023-03-09T19:59:43 EST" duration-ms="1388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedList_insertion -->
+        <test-method signature="LinkedList_Deletion(java.lang.String)[pri:8, instance:dsalgo_Testscenarios.LinkedList_TC@7ce9e05a]" started-at="2023-03-09T19:59:43 EST" name="LinkedList_Deletion" data-provider="phytoncode" finished-at="2023-03-09T19:59:52 EST" duration-ms="9283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedList_Deletion -->
+        <test-method signature="LinkedList_PracticeQuestion()[pri:9, instance:dsalgo_Testscenarios.LinkedList_TC@7ce9e05a]" started-at="2023-03-09T19:59:52 EST" name="LinkedList_PracticeQuestion" finished-at="2023-03-09T19:59:53 EST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedList_PracticeQuestion -->
+      </class> <!-- dsalgo_Testscenarios.LinkedList_TC -->
+      <class name="dsalgo_Testscenarios.Graph_TC">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.Graph_TC@4d774249]" started-at="2023-03-09T20:00:23 EST" name="setup" finished-at="2023-03-09T20:00:23 EST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="graphpage()[pri:1, instance:dsalgo_Testscenarios.Graph_TC@4d774249]" started-at="2023-03-09T20:00:23 EST" name="graphpage" finished-at="2023-03-09T20:00:26 EST" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- graphpage -->
+        <test-method signature="graphText_Editor(java.lang.String)[pri:2, instance:dsalgo_Testscenarios.Graph_TC@4d774249]" started-at="2023-03-09T20:00:27 EST" name="graphText_Editor" data-provider="Python" finished-at="2023-03-09T20:00:30 EST" duration-ms="2844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- graphText_Editor -->
+        <test-method signature="back_to_home()[pri:3, instance:dsalgo_Testscenarios.Graph_TC@4d774249]" started-at="2023-03-09T20:00:30 EST" name="back_to_home" finished-at="2023-03-09T20:00:30 EST" duration-ms="217" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at dsalgo_Testscenarios.Graph_TC.back_to_home(Graph_TC.java:134)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back_to_home -->
+      </class> <!-- dsalgo_Testscenarios.Graph_TC -->
+      <class name="dsalgo_Testscenarios.Tree_TC">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.Tree_TC@7e2f86e6]" started-at="2023-03-09T20:00:11 EST" name="setup" finished-at="2023-03-09T20:00:11 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Tree()[pri:1, instance:dsalgo_Testscenarios.Tree_TC@7e2f86e6]" started-at="2023-03-09T20:00:11 EST" name="Tree" finished-at="2023-03-09T20:00:18 EST" duration-ms="7303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tree -->
+        <test-method signature="Tree_TextEditor(java.lang.String)[pri:2, instance:dsalgo_Testscenarios.Tree_TC@7e2f86e6]" started-at="2023-03-09T20:00:18 EST" name="Tree_TextEditor" data-provider="Python" finished-at="2023-03-09T20:00:21 EST" duration-ms="2416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tree_TextEditor -->
+        <test-method signature="back_to_Home()[pri:3, instance:dsalgo_Testscenarios.Tree_TC@7e2f86e6]" started-at="2023-03-09T20:00:21 EST" name="back_to_Home" finished-at="2023-03-09T20:00:23 EST" duration-ms="2207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back_to_Home -->
+      </class> <!-- dsalgo_Testscenarios.Tree_TC -->
+      <class name="dsalgo_Testscenarios.Arraypage_TC">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:22 EST" name="setup" finished-at="2023-03-09T19:59:22 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Arraypage()[pri:1, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:22 EST" name="Arraypage" finished-at="2023-03-09T19:59:22 EST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Arraypage -->
+        <test-method signature="arraysinpython(java.lang.String)[pri:2, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:22 EST" name="arraysinpython" data-provider="phytoncode" finished-at="2023-03-09T19:59:24 EST" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grocery = ["apples", "banana", "cucumbers", "dates","strawberries"]
+grocery.insert(2, "carrots")
+print (grocery);]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arraysinpython -->
+        <test-method signature="arraysinpython(java.lang.String)[pri:2, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:24 EST" name="arraysinpython" data-provider="phytoncode" finished-at="2023-03-09T19:59:24 EST" duration-ms="570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("apple")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arraysinpython -->
+        <test-method signature="arraysinpython(java.lang.String)[pri:2, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:24 EST" name="arraysinpython" data-provider="phytoncode" finished-at="2023-03-09T19:59:25 EST" duration-ms="578" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kanthi]]>
               </value>
             </param>
           </params>
@@ -49,7 +352,358 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at dsalgo_Testscenarios.Login_TC.aa_loginDDT(Login_TC.java:66)
+at dsalgo_Testscenarios.Arraypage_TC.arraysinpython(Arraypage_TC.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arraysinpython -->
+        <test-method signature="arraysusinglist(java.lang.String)[pri:3, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:25 EST" name="arraysusinglist" data-provider="phytoncode" finished-at="2023-03-09T19:59:26 EST" duration-ms="1044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grocery = ["apples", "banana", "cucumbers", "dates","strawberries"]
+grocery.insert(2, "carrots")
+print (grocery);]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arraysusinglist -->
+        <test-method signature="arraysusinglist(java.lang.String)[pri:3, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:26 EST" name="arraysusinglist" data-provider="phytoncode" finished-at="2023-03-09T19:59:27 EST" duration-ms="917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("apple")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arraysusinglist -->
+        <test-method signature="arraysusinglist(java.lang.String)[pri:3, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:27 EST" name="arraysusinglist" data-provider="phytoncode" finished-at="2023-03-09T19:59:28 EST" duration-ms="1014" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kanthi]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at dsalgo_Testscenarios.Arraypage_TC.arraysusinglist(Arraypage_TC.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arraysusinglist -->
+        <test-method signature="Basic_Oprtations_list(java.lang.String)[pri:4, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:29 EST" name="Basic_Oprtations_list" data-provider="phytoncode" finished-at="2023-03-09T19:59:30 EST" duration-ms="1087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grocery = ["apples", "banana", "cucumbers", "dates","strawberries"]
+grocery.insert(2, "carrots")
+print (grocery);]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basic_Oprtations_list -->
+        <test-method signature="Basic_Oprtations_list(java.lang.String)[pri:4, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:30 EST" name="Basic_Oprtations_list" data-provider="phytoncode" finished-at="2023-03-09T19:59:30 EST" duration-ms="693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("apple")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basic_Oprtations_list -->
+        <test-method signature="Basic_Oprtations_list(java.lang.String)[pri:4, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:30 EST" name="Basic_Oprtations_list" data-provider="phytoncode" finished-at="2023-03-09T19:59:31 EST" duration-ms="612" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kanthi]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at dsalgo_Testscenarios.Arraypage_TC.Basic_Oprtations_list(Arraypage_TC.java:113)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basic_Oprtations_list -->
+        <test-method signature="Applications_of_Array(java.lang.String)[pri:5, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:31 EST" name="Applications_of_Array" data-provider="phytoncode" finished-at="2023-03-09T19:59:32 EST" duration-ms="1064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grocery = ["apples", "banana", "cucumbers", "dates","strawberries"]
+grocery.insert(2, "carrots")
+print (grocery);]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applications_of_Array -->
+        <test-method signature="Applications_of_Array(java.lang.String)[pri:5, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:32 EST" name="Applications_of_Array" data-provider="phytoncode" finished-at="2023-03-09T19:59:33 EST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("apple")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applications_of_Array -->
+        <test-method signature="Applications_of_Array(java.lang.String)[pri:5, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:33 EST" name="Applications_of_Array" data-provider="phytoncode" finished-at="2023-03-09T19:59:34 EST" duration-ms="727" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kanthi]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at dsalgo_Testscenarios.Arraypage_TC.Applications_of_Array(Arraypage_TC.java:141)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applications_of_Array -->
+        <test-method signature="Practice_Questions()[pri:6, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:34 EST" name="Practice_Questions" finished-at="2023-03-09T19:59:35 EST" duration-ms="595" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at dsalgo_Testscenarios.Arraypage_TC.assertverify_practiceq(Arraypage_TC.java:291)
+at dsalgo_Testscenarios.Arraypage_TC.Practice_Questions(Arraypage_TC.java:157)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Practice_Questions -->
+        <test-method signature="Final()[pri:11, instance:dsalgo_Testscenarios.Arraypage_TC@11a00961]" started-at="2023-03-09T19:59:35 EST" name="Final" finished-at="2023-03-09T19:59:35 EST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Final -->
+      </class> <!-- dsalgo_Testscenarios.Arraypage_TC -->
+      <class name="dsalgo_Testscenarios.Login_TC">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.Login_TC@2257fadf]" started-at="2023-03-09T19:59:01 EST" name="setup" finished-at="2023-03-09T19:59:10 EST" duration-ms="8848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="a_opensign_inpage()[pri:1, instance:dsalgo_Testscenarios.Login_TC@2257fadf]" started-at="2023-03-09T19:59:10 EST" name="a_opensign_inpage" finished-at="2023-03-09T19:59:12 EST" duration-ms="2290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_opensign_inpage -->
+        <test-method signature="sign_inpage()[pri:2, instance:dsalgo_Testscenarios.Login_TC@2257fadf]" started-at="2023-03-09T19:59:12 EST" name="sign_inpage" finished-at="2023-03-09T19:59:12 EST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_inpage -->
+        <test-method signature="aa_loginDDT(java.lang.String,java.lang.String)[pri:3, instance:dsalgo_Testscenarios.Login_TC@2257fadf]" started-at="2023-03-09T19:59:15 EST" name="aa_loginDDT" data-provider="Valid_Logindata" finished-at="2023-03-09T19:59:16 EST" duration-ms="1443" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Webisite@1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at dsalgo_Testscenarios.Login_TC.aa_loginDDT(Login_TC.java:71)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -82,7 +736,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aa_loginDDT -->
-        <test-method signature="aa_loginDDT(java.lang.String,java.lang.String)[pri:5, instance:dsalgo_Testscenarios.Login_TC@2a22ad2b]" started-at="2023-03-01T17:19:39 EST" name="aa_loginDDT" data-provider="Valid_Logindata" finished-at="2023-03-01T17:19:40 EST" duration-ms="1591" status="FAIL">
+        <test-method signature="aa_loginDDT(java.lang.String,java.lang.String)[pri:3, instance:dsalgo_Testscenarios.Login_TC@2257fadf]" started-at="2023-03-09T19:59:16 EST" name="aa_loginDDT" data-provider="Valid_Logindata" finished-at="2023-03-09T19:59:18 EST" duration-ms="1780" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,54 +749,79 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at dsalgo_Testscenarios.Login_TC.aa_loginDDT(Login_TC.java:66)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aa_loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsalgo_Testscenarios.Login_TC@2a22ad2b]" started-at="2023-03-01T17:19:40 EST" name="tearDown" finished-at="2023-03-01T17:19:40 EST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:dsalgo_Testscenarios.Login_TC@2257fadf]" started-at="2023-03-09T20:00:30 EST" name="quit" finished-at="2023-03-09T20:00:34 EST" duration-ms="3326" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- quit -->
       </class> <!-- dsalgo_Testscenarios.Login_TC -->
+      <class name="dsalgo_Testscenarios.Queue_TC">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:dsalgo_Testscenarios.Queue_TC@6fd5717c]" started-at="2023-03-09T20:00:00 EST" name="setup" finished-at="2023-03-09T20:00:00 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="b_Queuepage()[pri:1, instance:dsalgo_Testscenarios.Queue_TC@6fd5717c]" started-at="2023-03-09T20:00:00 EST" name="b_Queuepage" finished-at="2023-03-09T20:00:02 EST" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_Queuepage -->
+        <test-method signature="exutePythonCode(java.lang.String)[pri:2, instance:dsalgo_Testscenarios.Queue_TC@6fd5717c]" started-at="2023-03-09T20:00:02 EST" name="exutePythonCode" data-provider="Python_Code" finished-at="2023-03-09T20:00:04 EST" duration-ms="1750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exutePythonCode -->
+        <test-method signature="exuteCollectionse(java.lang.String)[pri:3, instance:dsalgo_Testscenarios.Queue_TC@6fd5717c]" started-at="2023-03-09T20:00:04 EST" name="exuteCollectionse" data-provider="Python_Code" finished-at="2023-03-09T20:00:05 EST" duration-ms="1461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exuteCollectionse -->
+        <test-method signature="excuteusingarray(java.lang.String)[pri:4, instance:dsalgo_Testscenarios.Queue_TC@6fd5717c]" started-at="2023-03-09T20:00:06 EST" name="excuteusingarray" data-provider="Python_Code" finished-at="2023-03-09T20:00:07 EST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteusingarray -->
+        <test-method signature="excuteQueueOperation(java.lang.String)[pri:5, instance:dsalgo_Testscenarios.Queue_TC@6fd5717c]" started-at="2023-03-09T20:00:07 EST" name="excuteQueueOperation" data-provider="Python_Code" finished-at="2023-03-09T20:00:08 EST" duration-ms="1492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Success")]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteQueueOperation -->
+        <test-method signature="excutepracticequestions()[pri:6, instance:dsalgo_Testscenarios.Queue_TC@6fd5717c]" started-at="2023-03-09T20:00:08 EST" name="excutepracticequestions" finished-at="2023-03-09T20:00:11 EST" duration-ms="2382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excutepracticequestions -->
+      </class> <!-- dsalgo_Testscenarios.Queue_TC -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

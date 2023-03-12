@@ -11,12 +11,12 @@ import org.testng.annotations.Test;
 
 import dsalgo_Testscenarios.BaseClass;
 
-public class Graph {
+public class Graph_POM {
 	//public static WebDriver driver=BaseClass.getDriver();
 	
 WebDriver ldriver;
 	
-	public Graph(WebDriver rdriver)
+	public Graph_POM(WebDriver rdriver)
 	{
 	ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
@@ -28,9 +28,12 @@ WebDriver ldriver;
 	 @FindBy (xpath="//div//a[text()='Graph Representations']")WebElement graphreprsnts;
 	 @FindBy (xpath="//div[@class='col-sm']/a")WebElement Tryhere;
 	 @FindBy (xpath="//button")WebElement Run;
-	@FindBy (xpath="//*[@id=\"answer_form\"]/div/div/div[6]")WebElement enter;
-	//@FindBy (xpath="//div[@class='input']/textarea[@id='editor']") WebElement enter;
-	//@FindBy (id="answer_form")WebElement enter;
+	//@FindBy (xpath="//*[@id=\"answer_form\"]/div/div/div[6]")WebElement enter;
+	 @FindBy (xpath="//form/div/div/div/textarea")WebElement enter;
+	 @FindBy (id="output")WebElement output;
+	 @FindBy (xpath="//a[text()='Sign out']")WebElement logout;
+
+	
 
 //to select graph link
       public void dropdown()
@@ -45,10 +48,18 @@ WebDriver ldriver;
       {graphreprsnts.click();}
     
       public void pythoncode(String code)
-      {      enter.sendKeys(code); 
-      System.out.println("Print Success");}
+      {    
+    	  enter.sendKeys(code); 
+      }
       
       public void Run()
       { Run.click();}
+      public String output()
+      {return output.getText();}
+      
+      public void logout()
+      {
+    	  logout.click();
+      }
 
 }

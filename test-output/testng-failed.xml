@@ -4,10 +4,28 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="dsalgo_Testscenarios.Arraypage_TC">
+        <methods>
+          <include name="arraysinpython" invocation-numbers="2"/>
+          <include name="quit"/>
+          <include name="Basic_Oprtations_list" invocation-numbers="2"/>
+          <include name="Applications_of_Array" invocation-numbers="2"/>
+          <include name="arraysusinglist" invocation-numbers="2"/>
+          <include name="setup"/>
+          <include name="Practice_Questions"/>
+        </methods>
+      </class> <!-- dsalgo_Testscenarios.Arraypage_TC -->
+      <class name="dsalgo_Testscenarios.Graph_TC">
+        <methods>
+          <include name="back_to_home"/>
+          <include name="quit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- dsalgo_Testscenarios.Graph_TC -->
       <class name="dsalgo_Testscenarios.Login_TC">
         <methods>
-          <include name="tearDown"/>
-          <include name="aa_loginDDT" invocation-numbers="0 1"/>
+          <include name="quit"/>
+          <include name="aa_loginDDT" invocation-numbers="0"/>
           <include name="setup"/>
         </methods>
       </class> <!-- dsalgo_Testscenarios.Login_TC -->

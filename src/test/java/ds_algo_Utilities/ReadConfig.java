@@ -29,7 +29,7 @@ public class ReadConfig {
 	public String gethomepageURL()
 	{
 		String homeurl=pro.getProperty("homepageURL");
-		return homeurl;
+		return homeurl;}
 
 
 public String getpassword()
@@ -42,6 +42,17 @@ return password;
 public String getcode() {
 String pythoncode=pro.getProperty("code");
 return pythoncode;
+}
+
+public String getusername() {
+	String username=pro.getProperty("username");
+	return username;
+}
+
+public String getArrayURL()
+{
+	String Arrayurl =pro.getProperty("ArrayURL");
+return Arrayurl;
 }
 
 }
