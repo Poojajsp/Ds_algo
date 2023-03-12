@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dsalgo_Testscenarios.Tc_Login_datadriven">
+      <class name="dsalgo_Testscenarios.Data_Structures_TC">
         <methods>
-          <include name="loginDDT"/>
-          <include name="setup"/>
-          <include name="opensign_inpage"/>
+          <include name="setDriver"/>
           <include name="tearDown"/>
-          <include name="logout"/>
-          <include name="Skip_test"/>
+          <include name="Timecomplex"/>
+          <include name="Timecomplex_editor"/>
           <include name="setup"/>
+          <include name="n"/>
         </methods>
-      </class> <!-- dsalgo_Testscenarios.Tc_Login_datadriven -->
+      </class> <!-- dsalgo_Testscenarios.Data_Structures_TC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

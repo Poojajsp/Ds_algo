@@ -6,14 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Register {
+public class Register_POM {
 
-	//WebDriver ldriver;
+	WebDriver ldriver;
 
-	public Register(WebDriver driver)
+	public Register_POM(WebDriver rdriver)
 	{
-		//ldriver=rdriver;
-		PageFactory.initElements(driver, this);
+		ldriver=rdriver;
+		PageFactory.initElements(ldriver, this);
 	}
 
 	@FindBy (xpath="//div/a[@class='nav-link dropdown-toggle']")WebElement dropdown;

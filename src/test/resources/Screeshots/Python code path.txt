@@ -1,0 +1,11 @@
+=======
+	 //String path="C:\\Users\\pooja\\eclipse-workspace\\Ds_algo\\src\\test\\resources\\TestData\\Ds_algo_Testdata.xlsx";
+		String dir = System.getProperty("user.dir");
+		   String path=dir+"\\src\\test\\resources\\TestData\\Ds_algo_Testdata.xlsx";
+		int rownum=XLUtils.getRowCount(path,"python_code");
+	 int cocount=XLUtils.getcellcount(path,"python_code",1);
+
+
+Log Buid path
+<classpathentry kind="lib" path="C:/Users/pooja/log4j/apache-log4j-2.20.0-bin/log4j-core-2.20.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pooja/log4j/apache-log4j-2.20.0-bin/log4j-api-2.20.0.jar"/>
